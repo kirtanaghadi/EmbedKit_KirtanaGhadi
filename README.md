@@ -21,7 +21,7 @@ This project implements an 8-byte circular buffer in standard C (C99). It suppor
 Bitwise AND can be faster than modulo on microcontrollers without a hardware divider. This technique works correctly for circular buffer indexing only when the buffer size is a power of 2, such as 2, 4, 8, or 16.
 
 ### File Structure
-- `ringbuf_optimized.c` — Contains the circular buffer implementation and test program.
+- `ringbuf.c` — Contains the circular buffer implementation and test program.
 
 ### Requirements
 - GCC compiler
